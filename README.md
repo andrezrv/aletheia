@@ -1,5 +1,5 @@
-Follet
-======
+Alétheia
+========
 
 [Alétheia](http://en.wikipedia.org/wiki/Aletheia), greek for *truth*, is a fully responsive, customizable, translation-ready and extendable child theme for WordPress. As [Follet](https://github.com/andrezrv/), its parent theme, Alétheia is SEO friendly via HTML5 standards and [schema.org](http://schema.org) microdata, compatible with all post formats, and customizable via [WordPress Customizer](https://codex.wordpress.org/Theme_Customization_API). It also features primary and secondary optional colors, intelligent widget areas, which won't show when no widgets are attached to them, and a lot of easy-to-use options under the hood to activate and extend. Clean and lean PHP, HTML, CSS and JS code, written by [WordPress Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards). Works impressively well right out of the box.
 
