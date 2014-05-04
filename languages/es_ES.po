@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alétheia Theme\n"
+"POT-Creation-Date: 2014-05-04 18:52-0300\n"
+"PO-Revision-Date: 2014-05-04 18:52-0300\n"
+"Last-Translator: Andrés Villarreal <andrezrv@gmail.com>\n"
+"Language-Team: Alétheia <andrezrv@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+
+#: ./includes/custom-setup.php:46
+msgid "Writer"
+msgstr "Writer"
+
+#: ./includes/custom-setup.php:242
+#, php-format
+msgid "Copyright %s"
+msgstr "Copyright %s"
+
+#: ./includes/custom-setup.php:242
+#, php-format
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: ./includes/custom-setup.php:242
+msgid "and"
+msgstr "and"

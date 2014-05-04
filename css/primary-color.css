@@ -1,0 +1,97 @@
+/**
+ * This stylesheet will manage all primary color-related styles.
+ *
+ * @package Follet_Theme
+ * @since   1.0
+ */
+/* =============================================================================
+   General
+   ========================================================================== */
+a {
+  color: #d9534f;
+}
+
+/* Navigation pills
+   ========================================================================== */
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #d9534f;
+}
+
+/* Buttons
+   ========================================================================== */
+.btn.btn-primary {
+  background-color: #d9534f;
+}
+
+/* Top navigation
+   ========================================================================== */
+#top-navigation-wrapper {
+  border-bottom: 5px solid #d9534f;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: #d9534f;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+#main-header {
+  background-color: #d9534f;
+}
+
+/* =============================================================================
+   Content
+   ========================================================================== */
+/* Articles
+   ========================================================================== */
+#main article {
+  border-top: 5px solid #d9534f;
+}
+
+.author-info {
+  border-bottom: 2px solid #d9534f;
+}
+
+#breadcrumbs,
+.page-header,
+.post-navigation,
+#comments {
+  border-top: 5px solid #d9534f;
+}
+
+/* Sidebar
+   ========================================================================== */
+#secondary .widget {
+  border-top: 5px solid #d9534f;
+}
+
+/* Post pagination
+  =========================================================================== */
+.page-links .links-container {
+  border-top: 2px solid #d9534f;
+}
+
+/* =============================================================================
+   Comments
+   ========================================================================== */
+#comments .reply a {
+  border-bottom: 1px dotted #d9534f;
+}
+
+.comment-metadata a {
+  border-bottom: 1px dotted #d9534f;
+}
+
+/* =============================================================================
+   Footer
+   ========================================================================== */
+#footer .credits a:hover {
+  color: #d9534f;
+}
+
+#social-menu ul li a:hover {
+  color: #d9534f;
+}

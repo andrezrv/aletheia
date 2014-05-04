@@ -1,0 +1,122 @@
+/**
+ * Alétheia
+ *
+ * A fully responsive, customizable, translation-ready and extendable child
+ * theme. As its parent, Alétheia is SEO friendly via schema.org microdata, and
+ * compatible with all post formats. It features intelligent widget areas, which
+ * won't show if no widgets are  attached to them. Customizable via WordPress
+ * Customizer and a lot of easy-to-use options under the hood. Clean and lean
+ * PHP, HTML, CSS and JS code, written by WordPress Coding Standards. Works
+ * impressively well right out of the box.
+ *
+ * @package   Aletheia_Child_Theme
+ * @version   1.0
+ * @author    Andrés Villarreal <andrezrv@gmail.com>
+ * @license   GNU General Public License
+ * @link      http://github.com/andrezrv/aletheia
+ * @copyright 2014 Andrés Villarreal
+ *
+ * @wordpress-theme
+ * Theme Name: Alétheia
+ * Theme URI: http://github.com/andrezrv/follet
+ * Author: Andr&eacute;s Villarreal
+ * Author URI: http://www.andrezrv.com
+ * Description: A fully responsive, customizable, translation-ready and extendable child theme. As its parent, Follet, Alétheia is SEO friendly via schema.org microdata, and compatible with all post formats. It features intelligent widget areas, which won't show if no widgets are attached to them. Customizable via WordPress Customizer and a lot of easy-to-use options under the hood. Clean and lean PHP, HTML, CSS and JS code, written by WordPress Coding Standards. Works impressively well right out of the box.
+ * Version: 1.0
+ * Template: follet
+ * License: GNU General Public License
+ * License URI: license.txt
+ * Text Domain: aletheia_theme
+ * Domain Path: /languages/
+ * Tags: red, grey, white, custom-colors, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, right-sidebar, light, photoblogging, responsive-layout, sticky-post, threaded-comments, translation-ready, two-columns, one-column
+ */
+
+@import url("../follet/style.css");
+
+#main-header {
+	background-position: 0 0;
+	min-height: 345px;
+	text-align: center;
+	text-shadow: 0 0 5px rgba(0,0,0,0.75);
+	.site-branding {
+		min-height: 0;
+		padding: 40px 0;
+	}
+}
+
+#content {
+	margin-top: -165px;
+}
+
+#breadcrumbs,
+.page-header,
+.navigation.post-navigation,
+#comments {
+	margin-bottom: 45px;
+	padding: 15px 20px;
+}
+
+#primary,
+#secondary {
+	margin: 30px 0;
+	padding: 0 30px;
+}
+
+#primary {
+	padding-right: 0;
+	article {
+		margin-bottom: 45px;
+		.entry-thumbnail {
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			margin: 0;
+			padding: 20px 10px 20px 20px;
+		}
+		.entry-content,
+		.entry-summary {
+			padding: 20px;
+		}
+		footer {
+			padding: 20px;
+		}
+	}
+}
+
+#secondary {
+	.widget {
+		margin-bottom: 45px;
+		padding: 0 20px 20px;
+		.widget-title {
+			padding: 10px 0;
+			+ .separator {
+				margin-left: -20px;
+				margin-right: -20px;
+			}
+		}
+	}
+}
+
+#secondary,
+#footer{
+	.widget {
+		.widget-title {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+.btn {
+	border-radius: 2px;
+	#back-to-top & {
+		border-radius: 0;
+	}
+}
+
+@media screen and (max-width:782px) {
+	#primary {
+		padding-right: 30px;
+	}
+}

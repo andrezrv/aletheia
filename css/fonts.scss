@@ -1,0 +1,245 @@
+/**
+ * This stylesheet will manage all font-related styles.
+ *
+ * @package Follet_Theme
+ * @since   1.0
+ */
+
+/* =============================================================================
+   Definitions
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin,latin-ext,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Neuton:400,200,300,400italic,700,800&subset=latin,latin-ext);
+
+@font-face {
+	font-family: 'Genericons';
+	src: url('../../follet/fonts/genericons/font/genericons-regular-webfont.eot');
+	src: url('../../follet/fonts/genericons/font/genericons-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../follet/fonts/genericons/font/genericons-regular-webfont.woff') format('woff'),
+		 url('../../follet/fonts/genericons/font/genericons-regular-webfont.ttf') format('truetype'),
+		 url('../../follet/fonts/genericons/font/genericons-regular-webfont.svg#genericonsregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'Genericons';
+		src: url('../../follet/fonts/genericons/font/genericons-regular-webfont.svg#genericonsregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		src: url('../../follet/fonts/open-sans/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+	}
+	@font-face {
+		font-family: 'Open Sans';
+		font-style: italic;
+		font-weight: 400;
+		src: url('../../follet/fonts/open-sans/OpenSans-Italic.svg#OpenSans-Italic') format('svg');
+	}
+	@font-face {
+		font-family: 'Open Sans';
+		font-style: bold;
+		font-weight: 700;
+		src: url('../../follet/fonts/open-sans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+	}
+	@font-face {
+		font-family: 'Neuton';
+		font-style: normal;
+		font-weight: 400;
+		src: url('../../follet/fonts/neuton/Neuton-Regular.svg#Neuton-Regular') format('svg');
+	}
+	@font-face {
+		font-family: 'Neuton';
+		font-style: bold;
+		font-weight: 700;
+		src: url('../../follet/fonts/neuton/Neuton-Bold.svg#Neuton-Bold') format('svg');
+	}
+}
+
+body {
+	font-size: 15px;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+.site-branding {
+	h1, h2 {
+		font-family: 'Neuton', serif;
+	}
+	h1 {
+		font-size: 56px;
+		font-weight: bold;
+		line-height: 56px;
+		//-webkit-text-stroke-width: 0.1px;
+		a {
+			&:hover, &:focus, &:active {
+				text-decoration: none;
+			}
+		}
+	}
+	h2 {
+		font-size: 38px;
+		//-webkit-text-stroke-width: 0.2px;
+	}
+}
+
+/* =============================================================================
+   Content
+   ========================================================================== */
+
+.page-header {
+	h1 {
+		font-family: 'Neuton', serif;
+	}
+}
+
+#main article,
+#tinymce.wp-editor {
+	h1, h2, h3, h4 {
+		font-family: 'Neuton', serif;
+	}
+	header {
+		h1 {
+			font-weight: bold;
+			font-size: 46px;
+			a {
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.entry-summary {
+		font-size: 18px;
+	}
+}
+
+.format-aside {
+	.entry-content {
+		font-size: 20px;
+	}
+}
+
+.format-status {
+	.entry-content {
+		font-size: 20px;
+	}
+}
+
+.format-link {
+	.entry-content {
+		font-size: 20px;
+	}
+}
+
+.wp-caption-text,
+.wp-caption-dd {
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+}
+
+.carousel-caption {
+	font-family: 'Open Sans', sans-serif;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		a {
+			font-family: 'Neuton', serif;
+		}
+	}
+}
+
+/* =============================================================================
+   Footer and sidebar
+   ========================================================================== */
+
+#secondary,
+#footer {
+	.widget {
+		.widget-title {
+			font-family: 'Neuton', serif;
+			font-size: 28px;
+		}
+	}
+}
+
+/* =============================================================================
+   Comments
+   ========================================================================== */
+
+#comments {
+	h1, h2, h3, h4 {
+		font-family: 'Neuton', serif;
+	}
+	.comments-title {
+		font-size: 36px;
+	}
+	#reply-title {
+		font-size: 36px;
+	}
+}
+
+.comment-author,
+.comment-metadata {
+	line-height: 60px;
+}
+
+.comment-author {
+	font-family: 'Neuton', serif;
+	font-size: 26px;
+}
+
+.form-allowed-tags {
+	code {
+		white-space: normal;
+	}
+}
+
+/* =============================================================================
+   Gravatar profile (Jetpack)
+   ========================================================================== */
+
+.widget-grofile {
+	#secondary &.widget h4:not(.widget-title) {
+		font-family: 'Neuton', serif;
+		font-size: 26px;
+	}
+	#footer &.widget h4:not(.widget-title) {
+		font-family: 'Neuton', serif;
+		font-size: 26px;
+	}
+}
+
+/* =============================================================================
+   Support for Suscription (via Jetpack)
+   ========================================================================== */
+
+.widget.jetpack_subscription_widget {
+	form {
+		font-size: 13px;
+		line-height: 24px;
+	}
+}
+
+/* =============================================================================
+   Support for Related Posts (via Jetpack)
+   ========================================================================== */
+
+div.jp-relatedposts .jp-relatedposts-headline {
+	font-size: 22px;
+}
