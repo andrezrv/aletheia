@@ -22,6 +22,11 @@ $stylesheet_directory = get_stylesheet_directory();
 require $stylesheet_directory . '/includes/custom-setup.php';
 
 /**
+ * Custom header implementation.
+ */
+require $stylesheet_directory . '/includes/custom-header.php';
+
+/**
  * Customizer additions.
  */
 require $stylesheet_directory . '/includes/customizer.php';
