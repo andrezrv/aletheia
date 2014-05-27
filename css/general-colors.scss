@@ -156,6 +156,14 @@ body {
 	}
 }
 
+.landing-page .navbar-inverse {
+	.site-title {
+		a {
+			color: $white;
+		}
+	}
+}
+
 /* =============================================================================
    Header
    ========================================================================== */
@@ -170,6 +178,10 @@ body {
 	.site-description {
 		color: $text-secondary;
 	}
+}
+
+.landing-page-header {
+	color: $white;
 }
 
 /* =============================================================================
@@ -214,13 +226,20 @@ blockquote {
 	}
 }
 
-#main article, #tinymce.wp-editor {
+#main article,
+#tinymce.wp-editor {
 	background-color: $white;
 	&.post {
 		header {
 			&:before {
 				color: $text-primary-contrast;
 			}
+		}
+	}
+	.landing-page & {
+		.entry-content,
+		.entry-summary {
+			padding-top: 15px;
 		}
 	}
 }

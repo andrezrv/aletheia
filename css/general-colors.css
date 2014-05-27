@@ -102,6 +102,10 @@ body {
   color: white;
 }
 
+.landing-page .navbar-inverse .site-title a {
+  color: white;
+}
+
 /* =============================================================================
    Header
    ========================================================================== */
@@ -112,6 +116,10 @@ body {
   color: white;
 }
 .site-branding .site-description {
+  color: white;
+}
+
+.landing-page-header {
   color: white;
 }
 
@@ -146,11 +154,20 @@ blockquote {
 
 /* Posts
    ========================================================================== */
-#main article, #tinymce.wp-editor {
+#main article,
+#tinymce.wp-editor {
   background-color: white;
 }
-#main article.post header:before, #tinymce.wp-editor.post header:before {
+#main article.post header:before,
+#tinymce.wp-editor.post header:before {
   color: #777777;
+}
+.landing-page #main article .entry-content,
+.landing-page #main article .entry-summary, .landing-page
+#tinymce.wp-editor .entry-content,
+.landing-page
+#tinymce.wp-editor .entry-summary {
+  padding-top: 15px;
 }
 
 #main article h1 a {
